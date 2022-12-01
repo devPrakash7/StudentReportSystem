@@ -1,4 +1,4 @@
-package com.pixelTrice.elastic;
+package com.prakash.elastic;
 
 
 import org.springframework.beans.factory.annotation.Autowired;

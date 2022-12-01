@@ -8,7 +8,7 @@
 		<version>2.7.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.pixelTrice</groupId>
+	<groupId>com.prakash</groupId>
 	<artifactId>elastic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>elastic</name>
@@ -38,7 +38,7 @@
 		<dependency>
 			<groupId>jakarta.json</groupId>
 			<artifactId>jakarta.json-api</artifactId>
-			<version>2.1.0</version>
+			<version>2.1.1</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>

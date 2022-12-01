@@ -1,4 +1,4 @@
-package com.pixelTrice.elastic;
+package com.prakash.elastic;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +17,7 @@ public class UIController {
     public String viewHomePage(Model model) throws IOException {
         model.addAttribute("listProductDocuments",elasticSearchQuery.searchAllDocuments());
         System.out.println(elasticSearchQuery.searchAllDocuments());
-        return "index.html";
+        return "index";
     }
 
     @PostMapping("/saveStudent")

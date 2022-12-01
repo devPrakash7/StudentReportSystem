@@ -1,4 +1,4 @@
-package com.pixelTrice.elastic;
+package com.prakash.elastic;
 
 import co.elastic.clients.elasticsearch.ElasticsearchClient;
 import co.elastic.clients.elasticsearch.core.*;
